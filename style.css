@@ -1,0 +1,111 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Kumbh Sans", sans-serif;
+}
+.Container {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.Bot {
+  position: absolute;
+  width: 100%;
+  top: 200px;
+  transform: rotate(20deg);
+  z-index: -1;
+}
+object {
+  position: absolute;
+  height: 200px;
+  bottom: 10px;
+}
+.TTop {
+  position: absolute;
+  width: 100%;
+  bottom: 300px;
+  right: 120px;
+  transform: rotate(180deg);
+  z-index: -1;
+}
+.Card {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 375px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+}
+.Top {
+  position: relative;
+  height: 55%;
+  width: 100%;
+  background-color: white;
+}
+.Mid {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 7%;
+  background-color: white;
+}
+h3 {
+  margin-right: 10px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+.Bottom {
+  text-align: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Profile {
+  position: absolute;
+  left: 105px;
+  bottom: 18px;
+  border-radius: 100px;
+  border: solid white 5px;
+}
+p {
+  margin-top: 2px;
+  color: hsl(0, 0%, 59%);
+  font-weight: 500;
+}
+.Line {
+  margin-top: 35px;
+  width: 100%;
+  height: 1px;
+  background-color: hsl(229, 23%, 23%);
+  opacity: 20%;
+}
+.Bottom-Row {
+  display: flex;
+  flex-grow: 2;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+.Row > p {
+  font-size: 12px;
+}
+.Row {
+  flex-grow: 1;
+}
